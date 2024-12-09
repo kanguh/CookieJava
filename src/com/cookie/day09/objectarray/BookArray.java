@@ -3,10 +3,17 @@ package com.cookie.day09.objectarray;
 import java.util.Scanner;
 
 class Book {
-	String name;
-	String author;
-	String price;
-	String publisher;
+	String name			= "";
+	String author		= "";
+	String price		= "";
+	String publisher	="";
+	
+//	public Book() {  <--- 원래는 이렇게 생성자에 초기화를 하는게 정석이다
+//		name = "";
+//		author = "";
+//		price = "";
+//		publisher = "";
+//	}
 	
 	void printInformation() {
 		System.out.println("'"+name+"'" + "의 작가는 " + author + "입니다. "
