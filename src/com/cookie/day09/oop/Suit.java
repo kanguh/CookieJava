@@ -6,7 +6,7 @@ public class Suit {
 	private int price;
 	
 	public Suit(int size) {
-		this.size,;
+
 		System.out.println("Suit(int)호출!!");
 	}
 }
