@@ -1,10 +1,10 @@
 package com.cookie.day09.oop;
 
 public class Student {
-	String name ="";
-	int kor = 0;
-	int eng = 0;
-	int math = 0;
+	String name;
+	int kor;
+	int eng;
+	int math;
 
 	public int total() {
 		return kor+eng+math;
